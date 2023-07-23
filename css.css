@@ -16,17 +16,14 @@ a:visited{text-decoration:line-through;}
 footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
 #container { background-color: #FF0099;
               padding: 1.25em;
-              width: 80%; min-width: 800px; max-width: 1260px;
+              width: 80%; min-width: 300px; max-width: 1260px;
               margin-left: auto;
               margin-right: auto; }
-viewport{ @media (max-width: 768px) nav li { display: inline-block;
-           width: 7em;
-           padding: 0.5em;
-           border: none; }
- nav      { text-align: center;
-            width: 55%;}
+viewport{ @media (max-width: 768px) 
+ nav      { width: 55%;}
  main     { float: left;
-            width: 25%; }
+            width: 55%; 
+          display: inline-block;}
  footer   { clear: both; }
  }
 
