@@ -9,7 +9,7 @@ body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/202
 nav { float: left;
        width: 80%; border-style:double; margin:26px 10px 5px; border-color: white;}
 main{border-style:double; margin:5px 10px 0px 600px;border-color:white;}
-header{border-style:dotted; margin:10px 10px; border-color:white; }
+header{border-style:dotted; margin:10px 10px; border-color:white; text-align: center;}
 a:link{text-transform:uppercase;border-style:outset; }
 a:hover{color: #FF99FF;}
 a:visited{text-decoration:line-through;}
@@ -26,7 +26,7 @@ viewport{ @media (max-width: 768px) nav li { display: inline-block;
  nav      { text-align: center;
             width: 55%;}
  main     { float: left;
-            width: 55%; }
+            width: 25%; }
  footer   { clear: both; }
  }
 
