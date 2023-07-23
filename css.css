@@ -8,7 +8,7 @@ body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/202
  }
 nav { float: left;
        width: 80%; border-style:double; margin:26px 10px 5px; border-color: white;}
-main{width: 80%; border-style:double; margin:5px 10px 0px 1200px;border-color:white;}
+main{width: auto; border-style:double; margin:5px 10px 0px 1200px;border-color:white;}
 header{border-style:dotted; margin:10px 10px; border-color:white; }
 a:link{text-transform:uppercase;border-style:outset; }
 a:hover{color: #FF99FF;}
