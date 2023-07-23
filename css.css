@@ -19,12 +19,12 @@ footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
               width: 80%; min-width: 300px; max-width: 1260px;
               margin-left: auto;
               margin-right: auto; }
-viewport{ @media (max-width: 768px) 
- nav      { width: 55%;}
- main     { float: left;
-            width: 55%; 
-          display: inline-block;}
- footer   { clear: both; }
+viewport{ @media only screen and (max-width: 768px) 
+         body {display:flex; flex-direction:column;}
+        header{background-color:#f2f2f2;}
+         footer{ text-color: #FFFFFF; }
+         main {border-color: black;}
+         nav { border-color:black;}
  }
 
     } 
