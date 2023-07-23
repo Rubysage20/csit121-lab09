@@ -19,5 +19,10 @@ footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
               width: 80%; min-width: 800px; max-width: 1260px;
               margin-left: auto;
               margin-right: auto; }
-
+@media (max-width: 768px){nav li { display: block; }
+ nav ul { text-align: left; }
+ nav { float: left; }
+ #wrapper { width: 80%; margin: auto; max-width: 768px; }
+ body { background-color: #000066; }
+}
     } 
