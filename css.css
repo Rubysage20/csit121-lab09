@@ -21,8 +21,8 @@ footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
            width: 7em;
            padding: 0.5em;
            border: none; }
- nav      { text-align: center;
-            width: 55%;
+header { text-align: center;}
+ nav      { width: 55%;
 margin: 26px, 0px, 5px;}
  main     { float: left;
             width: 55%; }
