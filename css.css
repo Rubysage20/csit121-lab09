@@ -3,7 +3,6 @@ p {color: black; text-transform: uppercase; }
 p {text-shadow: 4px 6px 100px; } 
 h1,ul {color: black;}
 ol {color: black}
-img {border-style: dotted; border-color: purple; border-width:10px;}
 body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/2020/12/Red-Velvet-Cheesecake-30a-1.jpg); background-repeat:no-repeat; background-position: center; background-size: 200px; border: 14px inset #FF66CC; 
  }
 nav { float: left;
@@ -25,8 +24,7 @@ footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
            border: none; }
  nav ul   { text-align: center; }
  main     { float: left;
-            width: 55%; }
-img {border-style:dotted; border-color: purple; border-width:auto;}
+            width: 80%; }
  footer   { clear: both; }
  }
 }
