@@ -1,20 +1,22 @@
 body {font-family: Georgia; font-size:14pt; color: black; background-color: black;}
 p {color: black; text-transform: uppercase; }
-ul,ol {color: black;}
+p {text-shadow: 4px 6px 100px; } 
+h1,ul {color: black;}
+ol {color: black}
 img {border-style: dotted; border-color: purple; border-width:10px;}
-body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/2020/12/Red-Velvet-Cheesecake-30a-1.jpg); background-repeat:no-repeat; background-position: center; background-size: 200px; 
+body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/2020/12/Red-Velvet-Cheesecake-30a-1.jpg); background-repeat:no-repeat; background-position: center; background-size: 200px; border: 14px inset #FF66CC; 
  }
 nav { float: left;
-       width: 80%; border-style:double; margin:26px 0px 5px; border-color: white;}
-main{ width: 80%; border-style:double; margin:5px 10px 0px auto; border-color:white;}
+       width: 80%; border-style:double; margin:26px 10px 5px; border-color: white;}
+main{border-style:double; margin:5px 10px 0px 600px;border-color:white;}
 header{border-style:dotted; margin:10px 10px; border-color:white; }
 a:link{text-transform:uppercase;border-style:outset; }
 a:hover{color: #FF99FF;}
 a:visited{text-decoration:line-through;}
 footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
-#container {background-color: #FF0099;
+#container { background-color: #FF0099;
               padding: 1.25em;
-              width: 80%; min-width: 0px; max-width: 1260px;
+              width: 80%; min-width: 800px; max-width: 1260px;
               margin-left: auto;
               margin-right: auto; }
 viewport{ @media (max-width: 768px) nav li { display: inline-block;
@@ -22,10 +24,10 @@ viewport{ @media (max-width: 768px) nav li { display: inline-block;
            padding: 0.5em;
            border: none; }
  nav      { text-align: center;
-            width: 55%;
-margin: 26px, 0px, 5px;}
+            width: 55%;}
  main     { float: left;
             width: 55%; }
  footer   { clear: both; }
  }
-}
+
+    } 
