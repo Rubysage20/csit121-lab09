@@ -7,7 +7,7 @@ img {border-style: dotted; border-color: purple; border-width:10px;}
 body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/2020/12/Red-Velvet-Cheesecake-30a-1.jpg); background-repeat:no-repeat; background-position: center; background-size: 200px; border: 14px inset #FF66CC; 
  }
 nav { flex: auto;
-       width: 80%; border-style:double; margin:26px 10px 5px; border-color: white;}
+       width: 80%; border-style:double; border-color: white;}
 main{border-style:double; flex: auto; border-color:white;}
 header{border-style:dotted; margin:10px 10px; border-color:white; text-align: center;}
 a:link{text-transform:uppercase;border-style:outset; }
