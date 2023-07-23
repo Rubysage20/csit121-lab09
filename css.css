@@ -26,7 +26,6 @@ footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
  nav ul   { text-align: center; }
  main     { float: left;
             width: 55%; }
- aside    { margin-left: 55%; }
  footer   { clear: both; }
  }
 }
