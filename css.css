@@ -3,28 +3,29 @@ p {color: black; text-transform: uppercase; }
 p {text-shadow: 4px 6px 100px; } 
 h1,ul {color: black;}
 ol {color: black}
-img {border-style: dotted; border-color: purple; border-width:10px;}
-body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/2020/12/Red-Velvet-Cheesecake-30a-1.jpg); background-repeat:no-repeat; background-position: center; background-size: 200px; border: 14px inset #FF66CC; 
+img {border-style: dotted; border-color: grey; border-width:10px;}
+body { background-image: url(https://carlsbadcravings.com/wp-content/uploads/2020/12/Red-Velvet-Cheesecake-30a-1.jpg); background-repeat:no-repeat; background-position: center; background-size: 200px; border: 14px inset #FFB6C1; 
  }
-nav { border-style:double; flex: auto; border-color: white;}
-main{border-style:double; flex: auto; border-color:white;}
-header{border-style:dotted; margin:10px 10px; border-color:white; text-align: center;}
+nav { float: left;
+       width: 60%; margin:26px 15px 0px 0px; }
+main{flex: none;}
+header{border-style:dotted; margin:10px 10px; border-color:grey; text-align:center; color:black;}
 a:link{text-transform:uppercase;border-style:outset; }
-a:hover{color: #FF99FF;}
+a:hover{color: #FFFFFF;}
 a:visited{text-decoration:line-through;}
-footer {border-style:dotted; margin: 0px 10px 10px 10px; border-color:white;}
-#container { background-color: #FF0099;
+footer {margin: 50px 10px 10px 10px;}
+#container { background-color:#87CEFA;
               padding: 1.25em;
-              width: 80%; min-width: 300px; max-width: 1260px;
+              width: 80%; min-width: 400px; max-width: 1260px;
               margin-left: auto;
               margin-right: auto; }
 @media (max-width: 768px) 
-         body {display:flex; flex-wrap: wrap;}
-        header{background-color:#f2f2f2;border-color: #000000;}
-         footer{border-color: #000000; }
-         main {border-color: #000000; flex-direction:column;}
-         nav { border-color: #000000;}
-        table {
+         body {display:flex; flex-direction:column;}
+        header{background-color:#f2f2f2;}
+         footer{ text-color: #FFFFFF; }
+         main {border-color: black;}
+         nav { border-color:black;}
+table {
   border-collapse:collapse;
   width:60%;
 }
